@@ -1,0 +1,112 @@
+
+.language-list {
+	display: flex;
+	justify-content: center;
+}
+
+.language-list__item {
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.repo-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.repo-list__item {
+	flex-basis: 30%;
+}
+
+.repo {
+	margin: 20px;
+	padding: 10px;
+}
+.repo__avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	object-fit: cover;
+	background: #d5d5d5;
+	border: 1px solid #d5d5d5;
+	box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.1);
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.repo__avatar-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.repo__meta {
+	opacity: 0.6;
+	margin: 0;
+	color: #333;
+	font-size: 12px;
+}
+
+.repo__name {
+	vertical-align: middle;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 0;
+}
+.repo__link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.repo__handle {
+	vertical-align: middle;
+	font-size: 12px;
+	opacity: 0.5;
+	margin: 0;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-list__item {
+	margin: 10px;
+	padding: 5px;
+}
+
+.nav-list__link {
+	color: #d45703;
+	text-decoration: none;
+}
+
+.nav-list__link--active {
+	font-weight: bold;
+}
+
+
+
+
+/* Global styles go here */
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-justify--space-evenly {
+	justify-content: space-evenly;
+}
+
